@@ -1,0 +1,35 @@
+.body{
+  @apply flex flex-col items-center justify-center gap-4 sm:gap-9 mb-7 xl:mb-[102px]
+}
+
+.header{
+  @apply flex flex-col gap-3 items-center lg:-mb-4
+}
+
+.icon{
+  @apply flex items-center justify-center w-14 h-14 sm:w-[83px] sm:h-[83px] drop-shadow-10 rounded-full bg-white text-4xl sm:text-[56px] text-primary font-light
+}
+
+.page-title{
+  @apply text-primary font-bold text-xl
+}
+
+.title{
+  @apply text-primary font-bold text-xl
+}
+
+.subtitle{
+  @apply text-center
+}
+
+.percent{
+  @apply underline underline-offset-2
+}
+
+.accent{
+  @apply text-secondary
+}
+
+.lg{
+  @apply text-3xl md:text-[44px] md:leading-[53px]
+}

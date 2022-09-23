@@ -1,0 +1,31 @@
+.wrapper{
+  @apply flex items-center w-full h-full pl-[22px] pr-4 py-4 sm:py-2 gap-x-2 sm:gap-x-4 sm:pl-4
+}
+
+.left{
+  @apply space-y-2 flex flex-col sm:flex-row sm:gap-4 sm:space-y-0 sm:items-center
+}
+
+.icon{
+  @apply flex items-center gap-x-2 basis-4/12 sm:basis-0 sm:gap-x-4
+}
+
+.img{
+  @apply relative -top-0.5 w-5 h-5 sm:w-8 sm:h-8
+}
+
+.label{
+  @apply flex items-center gap-4 text-[11px] sm:text-base leading-tight basis-8/12
+}
+
+.b{
+  @apply inline-block uppercase text-sm relative top-[3px]
+}
+
+.bar{
+  @apply hidden sm:inline-block w-0.5 h-[18px] bg-gray-600
+}
+
+.dates{
+  @apply relative top-0.5
+}

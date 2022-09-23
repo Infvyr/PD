@@ -1,0 +1,46 @@
+.section{
+  @apply w-full pb-20 lg:pb-36
+}
+
+.page-container{
+  @apply container mx-auto
+}
+
+.title{
+  @apply my-10 text-secondary text-xl text-center font-bold
+}
+
+.content{
+  @apply grid grid-cols-1 sm:grid-cols-3 gap-x-[22px] gap-y-16 mx-4 sm:mx-0
+}
+
+.program{
+  @apply relative flex flex-col text-center shadow-disclosure rounded-20 bg-white sm:min-h-[364px] sm:max-w-[290px] xl:max-w-full h-full w-full sm:justify-self-end cursor-pointer transition-shadow hover:shadow focus:outline-0 focus-visible:ring-0
+}
+
+.footer{
+  @apply p-5 font-bold text-xl sm:text-3xl text-white bg-secondary rounded-bl-20 rounded-br-20 h-[80px]
+}
+
+.spinnerStyle{
+  @apply bg-transparent border-white
+}
+
+.disabled{
+  @apply pointer-events-none
+}
+
+.disabled footer{
+  @apply bg-gray-400
+}
+.disabled h3{
+  @apply text-gray-400
+}
+.disabled time,
+.disabled >div >div{
+  @apply !text-gray-400
+}
+
+.checked{
+  @apply absolute top-1 right-1 animate-fadeIn
+}

@@ -1,0 +1,38 @@
+.container{
+  @apply grid grid-cols-4 md:grid-cols-2 gap-4 md:gap-x-[18px] md:gap-y-[21px] py-3 px-[15px] shadow-form rounded-20 w-full max-h-[270px] md:max-h-[728px] overflow-y-scroll
+}
+
+.item{
+  @apply w-[71px] h-[71px] md:w-[110px] md:h-[110px] xxl:w-full xxl:h-40 rounded-2xl
+}
+
+.btn{
+  @apply flex flex-col justify-center relative w-full h-full text-center rounded-2xl text-white overflow-hidden bg-stone-500 border-2 border-transparent transition-[border] hover:border-secondary focus:border-secondary
+}
+
+.active{
+  @apply border-secondary shadow
+}
+
+.figure{
+  @apply flex items-end
+}
+
+.figure > span{
+  @apply !w-full !h-[44px] md:!h-[100px]
+}
+
+.figure img{
+  @apply object-contain
+}
+
+.caption{
+  @apply px-2.5 md:px-1 w-full truncate text-stone-50 text-[10px] md:text-base transition-colors text-gray-600
+}
+
+.item:hover .caption,
+.active .caption,
+.btn:hover .caption,
+.btn:focus .caption{
+  @apply text-secondary
+}

@@ -1,0 +1,7 @@
+.plan-body{
+    @apply mb-9 px-5 h-[212px] flex flex-col justify-between items-center gap-y-6 grow shrink sm:h-fit
+}
+
+.plan-description{
+    @apply font-light
+}

@@ -1,0 +1,64 @@
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fade {
+    from {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    to {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .flex-align{
+    @apply flex items-center justify-center
+  }
+  .hover-text-primary{
+    @apply hover:text-primary
+  }
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+  .no-scrollbar{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .animate-fade-in-down{
+    animation: 500ms ease-in-out 0s normal none 1 running fade
+  }
+  .animation-iteration-1{
+    animation-iteration-count: 1;
+  }
+  .error-message{
+    @apply px-4 text-sm text-primary
+  }
+  .custom-checkbox{
+    @apply absolute top-0 opacity-0 cursor-pointer h-0 w-0
+  }
+  .checkmark{
+    @apply absolute top-0 -left-6 h-3.5 w-3.5 bg-white border-[0.5px] border-solid border-primary cursor-pointer after:content-[''] after:absolute after:hidden
+  }
+  .checkbox-wrapper .checkmark{
+    @apply after:left-[3.5px] after:top-0 after:w-[6px] after:h-[10px] after:border-[0_3px_3px_0] after:border-solid after:border-white after:rotate-45
+  }
+  .custom-checkbox:checked ~ .checkmark{
+    @apply bg-primary after:block
+  }
+  .search-icon-inverted .search-path-outside,
+  .search-icon-inverted .search-path-inside{
+    @apply fill-white
+  }
+  .star-a.isActive{
+    @apply fill-amber-400
+  }
+  .star-a:hover path,
+  .star-a.isActive path{
+    @apply stroke-amber-400
+  }
+  .hover-path-white path{
+    @apply fill-white
+  }
+}

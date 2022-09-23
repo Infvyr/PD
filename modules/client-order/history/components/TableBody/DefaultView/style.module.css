@@ -1,0 +1,11 @@
+.table{
+  @apply h-[inherit] overflow-y-scroll rounded-[10px]
+}
+
+.item{
+  @apply px-7 py-2 grid grid-cols-[80px_120px_100px_1fr_1fr_1fr_80px_1fr_1fr_1fr_80px] items-center gap-x-4 last:rounded-bl-[10px] last:rounded-br-[10px]
+}
+
+.text{
+  @apply text-center
+}

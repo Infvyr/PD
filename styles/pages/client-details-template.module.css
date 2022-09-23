@@ -1,0 +1,15 @@
+.body{
+  @apply flex flex-col items-center justify-center gap-4 sm:gap-10 mb-7 xl:mb-[105px]
+}
+
+.page-image-container{
+  @apply max-w-fit mx-auto text-center
+}
+
+.page-image-caption{
+  @apply text-center
+}
+
+.form{
+  @apply mx-auto w-full md:max-w-[454px]
+}

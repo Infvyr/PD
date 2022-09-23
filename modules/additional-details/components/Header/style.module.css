@@ -1,0 +1,15 @@
+.header{
+  @apply text-center space-y-5
+}
+
+.title{
+  @apply text-3xl font-bold text-secondary
+}
+
+.steps{
+  @apply flex items-center justify-between max-w-[256px] sm:max-w-[267px] mx-auto
+}
+
+.hr{
+  @apply border-gray-600 w-[calc(100%-80px)]
+}

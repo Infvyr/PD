@@ -1,0 +1,57 @@
+.section{
+  @apply w-full pt-[37px] md:pt-[56px] pb-8 md:pb-[108px]
+}
+
+.wrapper{
+  @apply container mx-auto
+}
+
+.content{
+  @apply mx-auto max-w-full md:max-w-3xl xl:max-w-2xl
+}
+
+.input{
+  @apply rounded-full shadow-card drop-shadow-12 w-full min-h-[54px] h-full flex items-center
+}
+
+.payments{
+  @apply inline w-[30%] sm:w-fit
+}
+
+/* Customer details */
+.details{
+  @apply grid grid-cols-2 gap-y-3 gap-x-4 col-span-2 pt-9 pb-9 md:pb-12
+}
+
+.title{
+  @apply col-span-2 text-lg text-secondary font-light !leading-none flex items-end after:content-[''] after:bg-secondary after:grow after:h-px after:ml-3 after:mb-1
+}
+
+.inputD{
+  @apply bg-stone-500 rounded-full px-4 py-1 font-light
+}
+
+.inputD:not(.name){
+  @apply col-span-1
+}
+
+.name{
+  @apply col-span-2
+}
+
+.phone{
+  @apply !bg-stone-500 !rounded-full !font-light !h-[36px] !border-0 !w-full
+}
+
+/* Consent */
+.consent{
+  @apply mt-2 sm:mt-1.5 md:mb-16 flex justify-between gap-x-3 ml-7 text-xs md:text-base
+}
+
+.consent > div > div{
+  @apply justify-start
+}
+
+.consent > div > p{
+  @apply px-0 text-[10px] leading-tight md:text-base
+}

@@ -1,0 +1,19 @@
+.packages{
+  @apply grid grid-cols-3 gap-x-5
+}
+
+.package-box{
+  @apply shadow-card drop-shadow-12 rounded-lg flex flex-col items-center justify-center gap-y-2 py-3 w-full h-full hover:shadow hover:bg-secondary
+}
+
+.package-title{
+  @apply md:text-xl
+}
+
+.icon-wrapper{
+  @apply w-7 h-7 md:w-10 md:h-10 inline-flex items-center justify-center
+}
+
+.icon{
+  @apply w-full h-full fill-primary
+}

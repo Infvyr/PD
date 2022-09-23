@@ -1,0 +1,27 @@
+.item{
+  @apply flex justify-between items-center gap-x-2 min-h-[24px]
+}
+
+.name{
+  @apply text-[15px] leading-normal w-[calc(300px-70px)]
+}
+
+.amount{
+  @apply text-[15px]
+}
+
+.actions {
+  @apply flex items-center justify-between gap-x-0.5 w-[100px] leading-none animate-slideInRight
+}
+
+.action{
+  @apply border border-transparent bg-gradient-to-b text-white w-5 h-5 rounded-full flex items-center justify-center text-[14px] leading-normal transition-colors hover:bg-none hover:text-secondary hover:border-secondary
+}
+
+.delete{
+  @apply w-6 h-6 text-primary flex items-center
+}
+
+.deleteIcon{
+  @apply scale-[0.7]
+}

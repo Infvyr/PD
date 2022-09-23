@@ -1,0 +1,16 @@
+.footer{
+  @apply absolute left-2/4 bottom-1.5 -translate-x-2/4 sm:bottom-4 md:bottom-3.5 lg:left-2/3
+}
+
+.btn{
+  @apply bg-gradient-to-b text-white rounded-full px-3 h-8 flex items-center justify-center gap-x-2 text-xs font-bold min-w-[120px] md:min-w-[200px] md:text-base md:h-10 z-[9999]
+}
+
+.disabled{
+  @apply bg-zinc-400 disabled:hover:bg-none;
+  background-image: none;
+}
+
+.icon{
+  @apply rotate-180 w-4 h-4 md:w-5 md:h-5
+}

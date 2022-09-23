@@ -1,0 +1,23 @@
+.disclosure-header{
+  @apply w-full flex items-center justify-between gap-x-3 hover:text-gray-300 px-2.5 md:px-4
+}
+
+.disclosure-title{
+  @apply w-full inline-flex items-center gap-x-5 font-light text-left md:gap-x-3
+}
+
+.disclosure-icon{
+  @apply flex items-center justify-center h-5 w-5 rounded-full bg-primary
+}
+
+.is-disclosure-icon-opened{
+  @apply bg-gray-600
+}
+
+.icon{
+  @apply rotate-180 h-4 sm:h-3.5
+}
+
+.pin{
+  @apply w-full h-full max-w-[16px]
+}

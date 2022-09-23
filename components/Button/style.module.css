@@ -1,0 +1,22 @@
+.wrapper{
+  display: inherit
+}
+.wrapper button[data-valid="false"],
+.wrapper button[data-submitted="true"]{
+  @apply cursor-not-allowed opacity-80
+}
+.wrapper button[data-valid="false"]{
+  @apply bg-none bg-zinc-400 hover:bg-none
+}
+
+.wrapper.spinnerStart button{
+  @apply flex
+}
+
+.spinnerStart .label{
+  @apply order-1
+}
+
+.spinnerEnd .label{
+  @apply -order-1
+}

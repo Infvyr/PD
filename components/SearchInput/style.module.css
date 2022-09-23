@@ -1,0 +1,11 @@
+.iconContainer{
+  @apply absolute left-4 top-1/2 -translate-y-2/4
+}
+
+.icon{
+  @apply w-5 h-5
+}
+
+.input{
+  @apply rounded-full bg-gray-100 pl-10 pr-3 py-2 w-full text-xs h-10 xl:text-[17px]
+}

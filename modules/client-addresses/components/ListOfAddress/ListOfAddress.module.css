@@ -1,0 +1,51 @@
+.list{
+  @apply relative mt-3.5 mb-7 pl-2 py-2 lg:pl-8 pr-5 overflow-y-hidden after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-0 after:h-24 hover:after:bg-none hover:after:h-0;
+}
+.list:after{
+  transition: height 150ms ease-out;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1));
+}
+
+.wrapper{
+  @apply h-96 md:h-[404px] overflow-y-scroll
+}
+
+.list-item{
+  @apply flex items-center justify-between mb-2.5 last:mb-0
+}
+
+.label{
+  @apply inline-flex items-center gap-x-2 leading-5 cursor-pointer transition-colors hover:text-amber-400
+}
+
+.label:hover .radiomark{
+  @apply bg-amber-400
+}
+
+.radio{
+  @apply pl-2.5 select-none cursor-pointer block relative
+}
+
+.radio input[type='radio']{
+  @apply absolute top-0 w-0 h-0 cursor-pointer opacity-0
+}
+
+.radiomark{
+  @apply absolute -top-[7px] left-0 h-3.5 w-3.5 bg-white border border-secondary rounded-full transition-colors
+}
+
+.radio input[type='radio']:checked ~ .radiomark{
+  @apply bg-amber-400
+}
+
+.radiomark:after{
+  @apply content-[''] absolute hidden
+}
+
+.radio input[type='radio']:checked ~ .radiomark:after{
+  @apply block
+}
+
+.star{
+  @apply w-5 h-5
+}

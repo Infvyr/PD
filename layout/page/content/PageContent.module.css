@@ -1,0 +1,31 @@
+.content{
+  @apply pb-16 md:pb-32
+}
+
+.page-title{
+  @apply mt-9 lg:mt-[32px] mb-10 lg:mb-[49px] uppercase text-center text-4xl lg:text-[40px]
+}
+
+.title{
+  @apply text-xl md:text-2xl capitalize
+}
+
+.page-title,
+.title{
+  @apply text-secondary font-bold
+}
+
+.title + p,
+.title + ul,
+.title + p + ul{
+  @apply mb-5
+}
+
+.title + ul,
+.title + p + ul{
+  @apply px-5 sm:px-9 list-disc
+}
+
+.text-danger{
+  @apply mb-4 text-secondary text-[19px]
+}

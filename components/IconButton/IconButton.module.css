@@ -1,0 +1,31 @@
+.button{
+  @apply border border-solid border-transparent inline-flex items-center justify-center transition-colors
+}
+
+.outline{
+  @apply border-primary hover:border-secondary
+}
+
+.solid{
+  @apply !bg-gradient-to-b text-white hover:!bg-gradient-to-l
+}
+
+.defaultSize{
+  @apply w-10 h-10
+}
+
+.xs{
+  @apply w-[18px] h-[18px]
+}
+
+.sm{
+  @apply h-8 w-8
+}
+
+.lg{
+  @apply w-14 h-14
+}
+
+.badge{
+  @apply absolute -bottom-1.5 -right-1.5 w-5 h-5 inline-flex items-center justify-center bg-amber-400 rounded-full leading-none text-white text-[11px] lg:text-[14px] xl:leading-tight
+}

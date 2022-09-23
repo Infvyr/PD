@@ -1,0 +1,35 @@
+.parking{
+  @apply col-span-2 md:col-span-1
+}
+
+.title{
+  @apply mb-1.5 font-bold text-secondary text-[10px] leading-3 sm:text-[15px] sm:leading-none md:leading-tight md:indent-5
+}
+
+.btns{
+  @apply flex items-center gap-x-1 md:flex-wrap md:gap-2
+}
+
+.btn{
+  @apply rounded-full leading-none text-[11px] font-light capitalize bg-stone-500 px-2 h-6 w-full lg:leading-7 md:text-[15px] md:uppercase transition-colors hover:bg-stone-100
+}
+
+.btn--active{
+  @apply bg-gradient-to-b text-white
+}
+
+.max{
+  @apply max-w-[60px]
+}
+
+.nearby{
+  @apply md:max-w-[80px]
+}
+
+.outside{
+  @apply md:max-w-[140px]
+}
+
+.street{
+  @apply md:max-w-[120px]
+}

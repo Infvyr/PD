@@ -1,0 +1,121 @@
+@tailwind components;
+
+@layer components {
+  .section-title{
+    @apply text-primary text-xs tracking-[2.57px] uppercase font-bold 2xl:text-xl
+  }
+
+  .section-subtitle{
+    @apply font-bold text-xl uppercase md:text-[28px] md:leading-7
+  }
+
+  .bg-link-effect-1{
+    @apply bg-gradient-white bg-link-initial bg-link-position bg-no-repeat transition-all duration-300 hover:bg-link-hover
+  }
+
+  .card{
+    @apply w-full px-5 sm:px-[38px] pt-[17px] pb-[29px] shadow-form rounded-[20px]
+  }
+
+  .card-client{
+    @apply w-full p-2.5 shadow-form rounded-[20px] drop-shadow-440
+  }
+
+  .card-md{
+    @apply max-w-[320px] sm:max-w-[530px]
+  }
+
+  .card-lg{
+    @apply max-w-[90vw] lg:max-w-[895px]
+  }
+
+  .input{
+    @apply rounded-[29px] shadow-input h-[43px] w-full px-[15px] py-3 text-gray-400 placeholder-gray-400 font-light bg-white
+  }
+
+  .btn{
+    @apply inline-flex items-center h-[51px] rounded-full bg-gradient-to-b text-white py-2 px-12 transition-all hover:bg-gradient-to-l focus-visible:bg-gradient-to-l
+  }
+
+  .btn-sm{
+    @apply h-10 leading-3
+  }
+
+  .btn-xs{
+    @apply h-8 leading-3
+  }
+
+  .btn-outline{
+    @apply border-2 border-primary text-primary hover:text-white hover:border-secondary focus-visible:text-white;
+
+    background-image: none;
+  }
+
+  .btn-ghost{
+    @apply bg-zinc-400 disabled:hover:bg-none;
+
+    background-image: none;
+  }
+
+  .btn-form{
+    @apply uppercase w-full mx-auto sm:max-w-[200px]
+  }
+}
+
+
+/* NPROGRESS */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999;
+}
+
+#nprogress .spinner::before{
+  content: "";
+  position: absolute;
+  left: -25000%;
+  top: -25000%;
+  width: 50000%;
+  height: 50000%;
+  background-color: #fff;
+}
+
+#nprogress .spinner-icon {
+  width: 50px;
+  height: 50px;
+  background: url("/assets/images/loader.gif") no-repeat center;
+  background-size: contain;
+  position: relative;
+  z-index: 1;
+
+  /* animation: nprogress-spinner 400ms linear infinite; */
+}
+
+#nprogress .spinner-icon::after{
+  content: "Please wait...";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-left: -30px;
+  width: calc(100% + 60px);
+  text-align: center;
+  color: #912829;
+  animation: fade 450ms ease-in-out infinite alternate;
+}
+
+@keyframes fade {
+  to {opacity: 0}
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

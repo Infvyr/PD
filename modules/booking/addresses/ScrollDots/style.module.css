@@ -1,0 +1,62 @@
+.dots{
+  @apply absolute left-2/4 top-auto -translate-x-2/4 w-3.5 h-5 transition-opacity delay-300 z-10
+}
+
+.dotUp,
+.dot{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-left: 2px dotted #912829;
+  border-bottom: 2px dotted #912829;
+  animation: scroll-effect 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+.dot{
+  @apply -rotate-45
+}
+
+.dotUp{
+  @apply rotate-[135deg]
+}
+
+.dot:nth-of-type(1){
+  animation-delay: 0s;
+}
+.dot:nth-of-type(2){
+  top: 7px;
+  animation-delay: 150ms;
+}
+.dot:nth-of-type(3){
+  top: 14px;
+  animation-delay: 300ms;
+}
+
+.dotUp:nth-of-type(1){
+  animation-delay: 300ms;
+
+}
+.dotUp:nth-of-type(2){
+  top: 7px;
+  animation-delay: 150ms;
+}
+.dotUp:nth-of-type(3){
+  top: 14px;
+  animation-delay: 0s;
+}
+
+@keyframes scroll-effect {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,77 @@
+.section{
+  @apply py-1.5 relative min-h-[570px] md:min-h-[600px]
+}
+
+.left-image{
+  @apply absolute bottom-2 md:-bottom-11 xl:bottom-0 -z-10 hidden md:block md:scale-[0.8] lg:scale-[0.85] xl:scale-100 md:-left-[65%] lg:-left-[35%] xl:-left-[44%]
+}
+
+.right-image{
+  @apply absolute bottom-3 -z-[11] hidden md:block md:scale-[0.85] lg:scale-100 md:-right-[2%] lg:-right-0 xxl:right-[7%]
+}
+
+.wrapper{
+  @apply container mx-auto
+}
+
+.content{
+  @apply mx-auto text-center max-w-[30rem] md:max-w-[30rem] lg:max-w-[40rem]
+}
+
+.title{
+  @apply mt-11 mb-5 flex flex-col text-[28px] leading-normal xl:text-5xl	xl:leading-[58px]
+}
+
+.title-second-line{
+  @apply text-primary font-bold
+}
+
+.text{
+  @apply xl:px-7 xl:mb-6
+}
+
+
+@media screen and (min-width: 1200px){
+  .section{
+    overflow: unset;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1679px){
+  .left-image{
+    left: -30%
+  }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1879px){
+  .left-image{
+    left: -20%
+  }
+}
+
+@media screen and (min-width: 1880px) and (max-width: 2160px){
+  .left-image{
+    left: -15%
+  }
+  .right-image{
+    right: 12%;
+  }
+}
+
+@media screen and (min-width: 2161px){
+  .left-image{
+    left: 5%
+  }
+  .right-image{
+    right: 20%;
+  }
+}
+
+@media screen and (min-width: 3160px){
+  .left-image{
+    left: 10%
+  }
+  .right-image{
+    right: 27%;
+  }
+}

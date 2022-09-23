@@ -1,0 +1,19 @@
+.item{
+  @apply py-[9px] px-4 mb-4 last:mb-0 flex items-center justify-between gap-3 bg-stone-500 rounded-full transition-colors hover:bg-stone-100 focus-visible:bg-stone-100
+}
+
+.item:hover strong{
+  @apply text-secondary
+}
+
+.name{
+  @apply text-primary text-left
+}
+
+.add{
+  @apply rounded-full bg-green-600 min-w-[62px] h-[25px] text-white font-bold leading-relaxed border border-green-600 transition-shadow transition-colors hover:shadow hover:bg-transparent hover:text-green-600
+}
+
+.inCart{
+  @apply bg-green-700 pointer-events-none
+}

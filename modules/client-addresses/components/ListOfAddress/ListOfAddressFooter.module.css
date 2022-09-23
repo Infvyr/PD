@@ -1,0 +1,19 @@
+.footer{
+  @apply flex items-center flex-col gap-2.5 mb-[22px] pl-2 lg:pl-8 pr-2 xl:flex-row
+}
+
+.button-set{
+  @apply py-0 px-2 w-full justify-center leading-4 xl:max-w-[200px] xxl:max-w-[300px]
+}
+
+.button-set[disabled]{
+  @apply bg-none text-primary cursor-not-allowed
+}
+
+.button-remove{
+  @apply w-full justify-center leading-4 xl:max-w-[144px] xl:px-2
+}
+
+.disabled{
+  @apply cursor-not-allowed hover:bg-none
+}

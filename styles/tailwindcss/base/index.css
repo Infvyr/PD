@@ -1,0 +1,19 @@
+@tailwind base;
+
+@layer base {
+  html{
+    @apply font-calibri scroll-p-[70px] select-none
+  }
+
+  body{
+    @apply text-gray-600 text-base
+  }
+
+  a{
+    @apply transition-all duration-300
+  }
+
+  *{
+    @apply focus-visible:outline-none focus-visible:ring focus-visible:ring-blue-400 focus-visible:outline-1
+  }
+}

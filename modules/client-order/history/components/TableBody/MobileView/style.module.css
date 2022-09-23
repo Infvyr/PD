@@ -1,0 +1,33 @@
+.table{
+  @apply py-3.5 grid grid-rows-[auto_auto_auto] gap-y-2 bg-white rounded-bl-[10px] rounded-br-[10px] border-t-[31px] border-secondary rounded-tl-[9px] rounded-tr-[9px]
+}
+
+.tableItem{
+  @apply border-b-[6px] border-secondary
+}
+
+.rowHeader,
+.rowContent{
+  @apply px-2 py-0.5 grid grid-cols-4 gap-1 text-[9px] sm:text-[10px] md:text-[14px]
+}
+
+.rowHeader{
+  @apply bg-stone-500 leading-loose
+}
+
+.rowHeaderSecond,
+.rowContentSecond{
+  @apply grid-cols-[36px_1fr_1fr_1fr_36px] md:grid-cols-[50px_1fr_1fr_1fr_50px]
+}
+
+.rowContent{
+  @apply py-1
+}
+
+.text{
+  @apply text-secondary leading-normal lg:col-span-2
+}
+
+.truncateText{
+  @apply truncate
+}

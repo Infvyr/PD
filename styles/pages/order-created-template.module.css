@@ -1,0 +1,35 @@
+.section{
+  @apply py-10 w-full
+}
+
+.wrapper{
+  @apply container mx-auto px-5 lg:max-w-lg
+}
+
+.title{
+  @apply mb-5 text-center font-bold text-secondary text-xl md:text-3xl
+}
+
+.order{
+  @apply px-2 py-3.5 inline-flex items-end justify-center gap-x-2 w-full rounded-20 bg-secondary text-white
+}
+
+.order-title{
+  @apply text-3xl font-light
+}
+
+.order-number{
+  @apply font-bold text-5xl
+}
+
+.message{
+  @apply mt-12 mb-5 text-center
+}
+
+.message-title{
+  @apply font-bold text-xl md:text-2xl
+}
+
+.message-subtitle{
+  @apply text-sm md:text-xl
+}

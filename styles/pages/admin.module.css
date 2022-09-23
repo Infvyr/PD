@@ -1,0 +1,3 @@
+.auth-page{
+  @apply relative flex items-center justify-center min-h-[calc(100vh-93px-283px)] after:content-[''] after:block after:h-2 after:bg-gradient-to-l after:absolute after:bottom-0 after:left-0 after:right-0
+}

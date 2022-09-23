@@ -1,0 +1,15 @@
+.body{
+ @apply sm:mt-4
+}
+
+.layout{
+  @apply grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8
+}
+
+.card{
+  @apply rounded-[20px] shadow-card-address bg-white
+}
+
+.card-inner{
+  @apply flex flex-col
+}

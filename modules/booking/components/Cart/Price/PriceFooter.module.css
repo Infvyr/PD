@@ -1,0 +1,19 @@
+.footer{
+  @apply px-2.5 inline-flex items-center justify-center flex-col gap-0 bg-secondary text-white transition-all duration-300
+}
+
+.outside{
+  @apply pt-8 pb-2 md:pb-1 relative -top-5 w-full rounded-bl-[20px] -z-[1]
+}
+
+.inside{
+  @apply py-2 rounded-full
+}
+
+.total{
+  @apply leading-none text-sm !leading-none lg:text-xl
+}
+
+.warning{
+  @apply text-[7px] text-center leading-normal mt-2 lg:mt-0 lg:text-left lg:text-[10px]
+}

@@ -1,0 +1,19 @@
+.cart{
+  @apply fixed top-[100px] right-0 z-[9999] xl:top-[230px] animate-slideInRight z-[1]
+}
+
+.cart--visible{
+  @apply top-[170px] min-w-[360px] w-full transition-all duration-300 shadow-disclosure drop-shadow-20 rounded-tl-[20px] rounded-bl-[20px]
+}
+
+.icon{
+  @apply py-[13px] flex items-center justify-center bg-white rounded-tl-[20px] rounded-bl-[20px] shadow-disclosure z-[1] transition-all duration-300
+}
+
+.icon--visible{
+  @apply min-h-[280px] bg-white rounded-bl-[20px] rounded-tl-[20px] py-[13px]
+}
+
+.visible{
+  @apply ml-auto lg:w-full lg:ml-[unset] lg:min-w-[151px] transition-all duration-300 cursor-pointer
+}

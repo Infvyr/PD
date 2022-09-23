@@ -1,0 +1,8 @@
+.items{
+  @apply xl:min-h-[620px] xl:max-h-[620px] h-full overflow-y-scroll;
+  scrollbar-width: none
+}
+
+.items::-webkit-scrollbar{
+  display: none;
+}

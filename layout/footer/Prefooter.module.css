@@ -1,0 +1,35 @@
+.prefooter{
+  @apply pt-4 pb-3 bg-white text-gray-600 relative border-b-[1px] border-b-[#B53133] before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-[9px] before:bg-gradient-to-l
+}
+
+.prefooter-default{
+  @apply bg-gray-400 text-white
+}
+
+.ul{
+  @apply flex items-center justify-between sm:justify-center sm:gap-x-10 lg:gap-x-20
+}
+
+.ul li{
+  @apply pb-0 border-b-0
+}
+
+.ul li:first-child a{
+  @apply w-auto overflow-hidden
+}
+
+.ul a{
+  @apply text-xs md:text-[19px] font-bold hover:underline
+}
+
+.ul span{
+  @apply w-5 h-5 md:w-10 md:h-10
+}
+
+.prefooter-default-link{
+  @apply pt-2 pb-2 inline-block hover:text-slate-100 2xl:text-lg
+}
+
+.prefooter-icon{
+  @apply w-3 h-3 md:w-[26px] md:h-[26px]
+}

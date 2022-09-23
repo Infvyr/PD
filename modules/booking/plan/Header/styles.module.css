@@ -1,0 +1,7 @@
+.header{
+    @apply py-5 px-5
+}
+
+.header-title{
+    @apply uppercase text-secondary font-bold text-xl text-3xl sm:text-xl md:text-3xl
+}

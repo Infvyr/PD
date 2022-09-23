@@ -1,0 +1,49 @@
+.wrapper{
+  @apply relative mx-auto mb-2.5 mt-9 md:mt-20
+}
+
+.form-container{
+  @apply relative grid grid-cols-1 gap-y-1 md:grid-cols-[1fr_32px_1fr] place-items-center mx-auto w-11/12 2xl:w-full
+}
+
+.form-input-wrapper{
+  @apply w-full relative
+}
+
+.form-input{
+  @apply !static rounded-full shadow bg-white h-12 sm:h-10 w-full pl-4 pr-11 pb-2 pt-2.5 text-sm font-light xl:text-base xl:h-[50px] transition-shadow hover:shadow-sm placeholder:text-center placeholder:indent-5 truncate
+}
+
+.form-input:hover + .close,
+.form-input:focus + .close{
+  @apply opacity-100
+}
+
+.close{
+  @apply absolute right-0 top-2/4 -translate-y-2/4 w-8 h-8 text-xl opacity-0
+}
+
+.close:hover,
+.close:focus{
+  @apply opacity-100
+}
+
+.closeIcon{
+  @apply stroke-secondary
+}
+
+.arrows{
+  @apply flex items-center justify-center w-5 h-5 md:w-[32px] md:h-[25px] rotate-90 md:rotate-0
+}
+
+.autocomplete{
+  @apply col-span-full absolute top-[60px] -left-[5%] right-0 w-[110%] xl:w-[130%] shadow-booking-form drop-shadow-booking-form rounded-20 bg-white z-[998] h-[330px] md:-left-[26%] md:w-[152%] xl:-left-[15%]
+}
+
+.autocomplete-inner{
+  @apply flex flex-col gap-y-5 overflow-x-hidden overflow-y-scroll max-h-[295px] py-5
+}
+
+.overlay{
+  @apply before:content-[''] before:absolute before:-top-[2000%] before:-left-[1000%] before:w-[1000vw] before:h-[1000vh] before:bg-black/20 before:z-10
+}

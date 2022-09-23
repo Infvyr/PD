@@ -1,0 +1,15 @@
+.ul{
+  @apply flex items-center lg:gap-14 overflow-x-scroll md:overflow-hidden
+}
+
+.item{
+  @apply text-[#6D1E1F] xl:text-lg
+}
+
+.active{
+  text-shadow: 0 0 1px #6D1E1F;
+}
+
+.initial{
+  text-shadow: none
+}

@@ -1,0 +1,15 @@
+.cardSize{
+  @apply lg:max-w-[98vw] xl:max-w-[90vw] 2xl:max-w-[80vw] 3xl:max-w-[50vw]
+}
+
+.search{
+  @apply order-4 w-full sm:order-2 sm:w-5/12 sm:ml-auto sm:mr-2.5
+}
+
+.content{
+  @apply mt-6 rounded-[10px] border border-primary h-full
+}
+
+.defaultView{
+  @apply h-[720px] overflow-hidden
+}

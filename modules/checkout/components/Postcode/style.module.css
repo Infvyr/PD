@@ -1,0 +1,27 @@
+.wrapper{
+  @apply flex w-full h-full
+}
+
+.postcode{
+  @apply pr-2 pl-2.5 py-2 flex items-center justify-center gap-x-1 basis-6/12 rounded-tl-full rounded-bl-full bg-white sm:justify-start
+}
+
+.text{
+  @apply leading-none flex items-center gap-x-2 gap-y-1 flex-row md:flex-col flex-wrap sm:justify-start md:items-start
+}
+
+.post-location{
+  @apply text-secondary uppercase xl:text-[17px]
+}
+
+.icon{
+  @apply w-5 h-5 sm:w-10 sm:h-10 mx-auto inline-flex items-center justify-center basis-20 sm:basis-12 sm:m-0
+}
+
+.address{
+  @apply text-[13px] leading-none md:text-[15px] basis-6/12 inline-flex items-center bg-stone-500 rounded-tr-full rounded-br-full px-2.5 py-2
+}
+
+.svg{
+  @apply mx-auto sm:w-8 sm:h-8
+}

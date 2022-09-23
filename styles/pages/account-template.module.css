@@ -1,0 +1,15 @@
+.body{
+  @apply flex items-center justify-center flex-col gap-6
+}
+
+.pages{
+  @apply mt-10 mb-[30px] grid grid-cols-2 sm:grid-cols-4 gap-5 xs:gap-7 sm:gap-10 place-items-center ml-auto mr-auto max-w-[80%] sm:max-w-[95%] md:max-w-fit
+}
+
+.header{
+  @apply max-w-[200px] mx-auto -mt-11 sm:mt-0
+}
+
+.btn-create-order{
+  @apply order-none w-full max-w-[200px] sm:hidden
+}

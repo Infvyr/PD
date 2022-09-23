@@ -1,0 +1,31 @@
+.section{
+  @apply pt-6 md:pt-10 pb-[52px] xxl:w-full h-full min-h-[inherit]
+}
+
+.wrapper{
+  @apply container mx-auto px-4 sm:px-0
+}
+
+.inner{
+  @apply grid grid-cols-1 md:grid-cols-[268px_432px] gap-5 sm:gap-x-10 xl:gap-x-[115px] xxl:grid-cols-[0.5fr_1fr] xxl:px-[30px]
+}
+
+.sidebar{
+  @apply  flex flex-col gap-y-[29px] items-center
+}
+
+.sidebar-title{
+  @apply text-secondary font-bold text-xl
+}
+
+.sidebar-inner{
+  @apply w-full
+}
+
+.content{
+  @apply text-center
+}
+
+.content-title{
+  @apply text-secondary font-bold text-xl mb-[29px]
+}

@@ -1,0 +1,11 @@
+.content{
+  @apply pb-24 md:pb-36
+}
+
+.page-title{
+  @apply mt-9 lg:mt-[32px] mb-10 lg:mb-16 uppercase text-center text-2xl sm:text-4xl lg:text-[40px] text-secondary font-bold leading-tight
+}
+
+.image{
+  @apply md:mt-10
+}

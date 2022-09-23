@@ -1,0 +1,15 @@
+.title{
+  @apply mb-1.5 font-bold text-secondary text-[10px] leading-3 sm:text-[15px] sm:leading-none md:leading-tight
+}
+
+.group{
+  @apply flex items-center justify-between gap-x-1 sm:gap-x-5 sm:justify-start md:justify-between xl:justify-start
+}
+
+.btn{
+  @apply px-2 bg-stone-500 rounded-full capitalize font-light text-[11px] sm:max-w-[60px] w-full h-6 inline-block leading-none md:max-w-full md:text-[15px] md:uppercase xl:max-w-[80px] lg:leading-7 transition-colors hover:bg-stone-100
+}
+
+.btn--active{
+  @apply bg-gradient-to-b text-white
+}

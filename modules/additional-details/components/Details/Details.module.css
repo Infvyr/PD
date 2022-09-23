@@ -1,0 +1,27 @@
+.items{
+  @apply space-y-4
+}
+
+.heading{
+  @apply flex items-center justify-between
+}
+
+.title{
+  @apply grow col-span-2 text-sm sm:text-lg text-secondary font-light !leading-none flex items-end after:content-[''] after:bg-secondary after:grow after:h-px after:ml-3 after:mb-1
+}
+
+.custom-checkbox:checked ~ .checkmark::after {
+  @apply border-white
+}
+
+.custom-checkbox:checked ~ .checkmark {
+  @apply !bg-secondary
+}
+
+.checkmark{
+  @apply !top-px !left-2.5 sm:!left-[7px] sm:!top-[6px] !bg-gray-200 !border-gray-200
+}
+
+.label{
+  @apply font-light cursor-pointer leading-none relative text-sm sm:text-lg w-full inline-flex justify-end min-w-[150px] xs:min-w-[175px] md:!min-w-[165px]
+}

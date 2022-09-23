@@ -1,0 +1,3 @@
+.stripe{
+  @apply rounded-full bg-stone-500 px-4 py-1 h-[36px]
+}

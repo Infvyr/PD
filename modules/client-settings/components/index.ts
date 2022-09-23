@@ -1,0 +1,12 @@
+export * from './SettingsDialog';
+export * from './SettingsHeader';
+export * from './SettingsLayout';
+export * from './SettingsContent';
+export * from './SettingsPhone';
+export * from './SettingsMail';
+export * from './SettingsPassword';
+export * from './SettingsNotifications';
+export * from './MessageSuccess';
+export { OtpCode } from './Code/OtpCode';
+export { CodeByEmail } from './Code/CodeByEmail';
+export { CodeByPhone } from './Code/CodeByPhone';

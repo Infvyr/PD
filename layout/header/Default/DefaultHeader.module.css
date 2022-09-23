@@ -1,0 +1,32 @@
+.default{
+  @apply absolute top-0 left-0 right-0
+}
+
+.wrapper{
+  @apply top-0 bg-white z-[999] px-5 border-b border-b-gray-600 lg:border-b-0
+}
+
+.header{
+    @apply relative px-0 py-3 md:py-[13px] container mx-auto flex items-center justify-between gap-4
+}
+
+.buttons{
+  @apply flex items-center justify-center gap-2 md:gap-[11px]
+}
+
+.sticky {
+  @apply fixed top-0 left-0 right-0 w-full bg-white shadow-lg;
+
+  animation: 500ms ease-in-out 0s normal none 1 running slideInDown;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

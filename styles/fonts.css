@@ -1,0 +1,23 @@
+@font-face{
+  font-family: 'Calibri';
+  src: url("https://cdn.proovia.uk/pd/fonts/Calibri.woff2") format('woff2');
+  font-display: optional;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Calibri';
+  src: url("https://cdn.proovia.uk/pd/fonts/Calibri-Bold.woff2") format('woff2');
+  font-display: optional;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Calibri';
+  src: url("https://cdn.proovia.uk/pd/fonts/Calibri-Light.woff2") format('woff2');
+  font-display: optional;
+  font-weight: 300;
+  font-style: normal;
+}

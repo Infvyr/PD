@@ -1,0 +1,11 @@
+.wrapper{
+  @apply mt-5 md:mt-1.5 lg:mt-4 flex flex-col justify-between items-center gap-y-2 min-h-[220px] transition-all
+}
+
+.list{
+  @apply mb-4 px-2.5 flex flex-col justify-between gap-2 w-full overflow-y-scroll max-h-[460px]
+}
+
+.empty{
+  @apply px-2 w-full text-center
+}

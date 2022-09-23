@@ -1,0 +1,31 @@
+.wrapper{
+    @apply relative inline-block w-full h-full px-0 sm:px-3.5 py-3.5 rounded-[10px] drop-shadow-calendar shadow-calendar md:h-[330px]
+}
+
+.calendar{
+    @apply w-full border-0 text-sm 2xl:text-base
+}
+
+.calendar .react-datepicker__month-container{
+    float: none
+}
+
+.legend{
+    @apply mt-4 mb-1 flex justify-center items-center gap-x-3.5 sm:gap-x-14
+}
+
+.legend-item{
+    @apply inline-flex gap-1 items-center focus:ring-0
+}
+
+.legend-item-box{
+    @apply inline-block w-2.5 h-2.5 rounded-sm
+}
+
+.green{
+    @apply bg-green-600
+}
+
+.orange{
+    @apply bg-amber-400
+}
